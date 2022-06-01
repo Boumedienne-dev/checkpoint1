@@ -19,6 +19,14 @@ exemple :
 
 function theaterSieges() {
   // Your code here !
+  colonnes = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26];
+  rangeeSieges = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,100];
+
+//function theaterSieges() {
+  for (let i = 0; i < colonnes.length; i++) {
+    for (let j = 0; j < rangeeSieges.length; j++)
+    console.log(colonnes[i]+ "-"+ rangeeSieges[j]);
+}
 }
 
 console.log(theaterSieges());
