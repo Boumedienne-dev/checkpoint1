@@ -119,6 +119,16 @@ h2 {
   margin: 80px 0 -5px 0;
 }
 
+  /* Mise en page de mon bouton "Modify text and color" */
+
+.buttonM {
+  width: 20%;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+
 .skills {
   border-radius: 12px;
 }
